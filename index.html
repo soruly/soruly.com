@@ -20,13 +20,7 @@
     color: #36f;
   }
 
-  img {
-    border-radius: 10px 10px 0 0;
-    width: 300px;
-    height: 250px;
-  }
-
-  ul {
+  .list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -36,13 +30,16 @@
     padding: 0;
   }
 
-  li {
+  .item {
+    align-items: flex-end;
     background-color: #fff;
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 10px;
     box-shadow: 0 0 20px #ccc;
+    display: flex;
+    justify-content: center;
     line-height: 25px;
     margin: 10px;
     min-height: 275px;
@@ -51,30 +48,28 @@
     transition: box-shadow 100ms ease-out;
   }
 
-  li:hover {
+  .item:hover {
     box-shadow: 0 0 20px #36f;
   }
 
-  li a {
-    align-items: flex-end;
-    display: flex;
-    height: 100%;
-    justify-content: center;
-    margin: 0;
-    width: 100%;
-  }
 </style>
-<ul>
-  <li style="background-image: url(blog.jpg);">
-    <a href="//blog.soruly.hk">SolarDay - soruly's weblog</a>
-  <li style="background-image: url(m.jpg);">
-    <a href="//m.soruly.hk">SolarDay (mobile site)</a>
-  <li style="background-image: url(wiki.jpg);">
-    <a href="//wiki.soruly.hk">Swiky</a>
-  <li style="background-image: url(demo.jpg);">
-    <a href="//demo.soruly.hk">Web Demo</a>
-  <li style="background-image: url(soruly.jpg);">
-    <a href="//about.me/soruly">About Me</a>
-  <li style="background-image: url(whatanime.ga.jpg);">
-    <a href="//whatanime.ga">WAIT: What Anime Is This</a>
-</ul>
+<div class="list">
+  <a href="//blog.soruly.hk">
+    <div class="item" style="background-image: url(blog.jpg);">SolarDay - soruly's weblog</div>
+  </a>
+  <a href="//m.soruly.hk">
+    <div class="item" style="background-image: url(m.jpg);">SolarDay (mobile site)</div>
+  </a>
+  <a href="//wiki.soruly.hk">
+    <div class="item" style="background-image: url(wiki.jpg);">Swiky</div>
+  </a>
+  <a href="//demo.soruly.hk">
+    <div class="item" style="background-image: url(demo.jpg);">Web Demo</div>
+  </a>
+  <a href="//about.me/soruly">
+    <div class="item" style="background-image: url(soruly.jpg);">About Me</div>
+  </a>
+  <a href="//whatanime.ga">
+    <div class="item" style="background-image: url(whatanime.ga.jpg);">WAIT: What Anime Is This</div>
+  </a>
+</div>
