@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-	<loc>http://soruly.hk/</loc>
-	<lastmod>2014-07-21</lastmod>
+	<loc>https://soruly.com/</loc>
+	<lastmod>2016-12-07</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>http://blog.soruly.hk/</loc>
-	<lastmod>2014-07-21</lastmod>
+	<loc>https://blog.soruly.com/</loc>
+	<lastmod>2016-12-07</lastmod>
 	<changefreq>daily</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>http://m.soruly.hk/</loc>
-	<lastmod>2014-07-21</lastmod>
+	<loc>https://m.soruly.com/</loc>
+	<lastmod>2016-12-07</lastmod>
 	<changefreq>daily</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>http://demo.soruly.hk/</loc>
-	<lastmod>2014-07-21</lastmod>
+	<loc>https://demo.soruly.com/</loc>
+	<lastmod>2016-12-07</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.8</priority>
 </url>
 <url>
-	<loc>http://wiki.soruly.hk/</loc>
-	<lastmod>2014-07-21</lastmod>
+	<loc>https://wiki.soruly.com/</loc>
+	<lastmod>2016-12-07</lastmod>
 	<changefreq>monthly</changefreq>
 	<priority>0.8</priority>
 </url>
