@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font: 100% sans-serif;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  transition: color 100ms ease-out;
+}
+
+a:hover {
+  color: #36f;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin: auto;
+  max-width: 700px;
+  padding: 0;
+}
+
+.item {
+  align-items: flex-end;
+  background-color: #fff;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #ccc;
+  display: flex;
+  justify-content: center;
+  line-height: 25px;
+  margin: 10px;
+  min-height: 275px;
+  min-width: 300px;
+  padding: 0;
+  transition: box-shadow 100ms ease-out;
+}
+
+.item:hover {
+  box-shadow: 0 0 20px #36f;
+}
+
+.blog {
+  background-image: url(blog.jpg);
+}
+.m {
+  background-image: url(m.jpg);
+}
+.demo {
+  background-image: url(demo.jpg);
+}
+.soruly {
+  background-image: url(soruly.jpg);
+}
